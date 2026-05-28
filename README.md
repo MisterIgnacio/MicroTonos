@@ -1,5 +1,3 @@
-Aquí tienes una propuesta para el README.md de tu proyecto. Está diseñado de forma limpia, estructurada y muy visual para que cualquiera que entre a tu repositorio entienda perfectamente qué hace tu código y cómo usarlo.
-
 Simulador de Microtonos 🎵
 Un simulador interactivo en consola desarrollado en Python que permite gestionar y reproducir frecuencias sonoras utilizando la librería nativa de Windows winsound.
 

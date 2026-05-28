@@ -59,6 +59,10 @@ while ejecutando:
                 winsound.Beep(440,150)
         except ValueError:
             print("Error en el ingreso de datos")
+    elif opcion == 4:
+        print(f"Hay {microtonos_activos} microtonos activos haciendo vibrar el ambiente")
+    elif opcion == 5:
+        print("Saliendo del sistema")
+        ejecutando = False
     else:
         print("Error")
-        break

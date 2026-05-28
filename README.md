@@ -1,30 +1,34 @@
-Simulador de Microtonos 🎵
-Un simulador interactivo en consola desarrollado en Python que permite gestionar y reproducir frecuencias sonoras utilizando la librería nativa de Windows winsound.
+# 🎵 Simulador de Microtonos
 
-El programa permite experimentar con una secuencia de tonos predefinidos (frecuencias y duraciones), simulando un banco limitado de "microtonos" configurables por el usuario.
+![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)
+![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-🚀 Características
-Panel de Control Interactivo: Menú numérico para navegar por las distintas funciones del simulador.
+Un simulador interactivo basado en consola diseñado en **Python** para gestionar, controlar y reproducir secuencias de frecuencias sonoras (microtonos) mediante el hardware de audio de tu equipo. Utiliza la librería nativa de Windows `winsound` para sintetizar los sonidos en tiempo real.
 
-Secuencia Melódica Dinámica: Utiliza listas cíclicas de frecuencias (en Hz) y duraciones (en ms) para generar sonido.
+---
 
-Gestión de Recursos: Sistema de control que limita el uso a un máximo de 25 microtonos.
+## 🚀 Características
 
-Control de Errores: Manejo de excepciones (try-except) para evitar caídas si el usuario introduce datos no válidos (letras en lugar de números).
+* **🎛️ Panel de Control Interactivo:** Navegación simple mediante un menú numérico en la terminal.
+* **📊 Gestión de Recursos:** Sistema automatizado que controla un banco limitado de hasta 25 microtonos disponibles.
+* **🎼 Secuencia Cíclica Dinámica:** Reproducción de melodías utilizando arreglos de frecuencias (Hz) y duraciones (ms) que se repiten matemáticamente para evitar desbordamientos.
+* **🛡️ Entrada Segura (Anti-Crash):** Manejo de excepciones (`try-except`) para evitar que el programa se cierre si introduces texto en lugar de números.
 
-🛠️ Requisitos del Sistema
-Sistema Operativo: Windows (imprescindible, ya que la librería winsound es exclusiva de este OS).
+---
 
-Python: Versión 3.x o superior.
+## 🛠️ Requisitos del Sistema
 
-Dependencias: Ninguna (utiliza módulos nativos de la biblioteca estándar de Python).
+* **Sistema Operativo:** Windows 10 / 11 *(Requisito obligatorio: La librería `winsound` es exclusiva de la API de Windows).*
+* **Lenguaje:** [Python 3.x](https://www.python.org/) u o superior.
+* **Dependencias:** No requiere instalar librerías de terceros (usa módulos de la biblioteca estándar).
 
-💻 Instalación y Uso
-Descarga o clona el archivo con el código fuente (ej. simulador.py).
+---
 
-Abre la consola de comandos (CMD o PowerShell) en la ruta donde guardaste el archivo.
+## 💻 Instalación y Uso
 
-Ejecuta el script con el siguiente comando:
+Sigue estos pasos para ejecutar el simulador localmente:
 
-Bash
-python actividadMicrotonos.py
+1. **Clona este repositorio:**
+   ```bash
+   git clone [https://github.com/TU_USUARIO/TU_REPOSITORIO.git](https://github.com/TU_USUARIO/TU_REPOSITORIO.git)
